@@ -4,4 +4,4 @@ def fizzbuzz():
         str = 'Fizz' if i % 3 == 0 else ''
         str += 'Buzz' if i % 5 == 0 else ''
         str = i if str == '' else str
-        print(str, end='')
+        print(str, end=' ')
