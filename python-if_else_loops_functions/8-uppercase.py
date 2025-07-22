@@ -8,5 +8,3 @@ def uppercase(str):
         else:
             newString += str[i]
     print(newString)
-
-uppercase('Cououucou jdhdhj 665')
