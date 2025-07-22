@@ -1,5 +1,5 @@
 #!/usr/bin/python3  
-for i in range(ord('a'), ord('z')+1):
-    letter = chr(i)
-    if letter not in "qe":
-        print(letter, end="")
+for alpha_letters in range(ord('a'), ord('z')+1):
+    if alpha_letters in [101,113]:
+    continue
+    print("{:c}".format(alpha_letters), end="")
