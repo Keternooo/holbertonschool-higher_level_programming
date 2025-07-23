@@ -3,7 +3,7 @@
 
 
 class Square:
-    """size is a private attribute of the class Square which is an integer"""
+    """size is a private attribute"""
 
     def __init__(self, size=0):
         """verify value for size and type, also a to 0 by default"""
