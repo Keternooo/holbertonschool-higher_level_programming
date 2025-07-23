@@ -4,4 +4,5 @@
 My name is Keternooo notskidding
 
 >>> say('Keternoo', 1)
+   ...
 TypeError: last_name must be a string
