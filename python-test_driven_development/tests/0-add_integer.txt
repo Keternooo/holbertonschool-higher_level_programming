@@ -15,13 +15,13 @@ TypeError: b must be an integer
 Traceback (most recent call last):
     ...
 TypeError: a must be an integer
->>> float = float('inf')
->>> add_integer(float)
+>>> float0 = float('inf')
+>>> add_integer(float0)
 Traceback (most recent call last):
     ...
 OverflowError: cannot convert float infinity to integer
->>> float = float('NaN')
->>> add_integer(float)
+>>> float1 = float('NaN')
+>>> add_integer(float1)
 Traceback (most recent call last):
    ...
 ValueError: cannot convert float NaN to integer
