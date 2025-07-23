@@ -1,6 +1,7 @@
-#!/bin/usr/python3
-
+#!/usr/bin/python3
+"""Simple module for add two intergers"""
 def add_integer(a, b=98):
+    """My method for add two int"""
     if not isinstance(a, (int, float)):
         raise TypeError('a must be an integer')
     elif isinstance(b, (int, float)):
