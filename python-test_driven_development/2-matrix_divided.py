@@ -8,7 +8,7 @@ def matrix_divided(matrix, div):
     """My method for divide matrix"""
     if type(matrix) is not list:
         raise TypeError('matrix must be a matrix (list of lists) of integers/floats')
-    elif not isinstance(div, (int, float, str)):
+    elif not isinstance(div, (int, float)):
         raise TypeError('div must be a number')
     elif div == 0:
         raise ZeroDivisionError('division by zero')
