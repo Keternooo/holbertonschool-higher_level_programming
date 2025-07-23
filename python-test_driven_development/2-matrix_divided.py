@@ -15,7 +15,7 @@ def matrix_divided(matrix, div):
     newArr = []
     oldLen = None
     for i in matrix:
-        if oldLen != None and != len(i):
+        if oldLen != None and oldLen != len(i):
             raise TypeError('Each row of the matrix must have the same size')
         oldLen = len(i)
         toAppend = []
