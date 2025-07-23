@@ -11,10 +11,7 @@ Traceback (most recent call last):
    ...
 ZeroDivisionError: division by zero
 
->>> matrix = [[10, 8, 6], [20, 16, 12], [40, 32, 24]]
->>> div = "5"
->>> matrix_divided(matrix, div)
+>>> matrix_divided([], '1')
 Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "<stdin>", line 10, in matrix_divided
+   ...
 TypeError: div must be a number
