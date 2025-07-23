@@ -1,1 +1,7 @@
 >>> say = __import__('3-say_my_name').say_my_name
+
+>>> say('Keternooo', 'notskidding')
+My name is Keternooo notskidding
+
+>>> say('Keternoo', 1)
+TypeError: last_name must be a string
