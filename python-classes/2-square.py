@@ -6,7 +6,7 @@ class Square:
     """size is a private attribute of the class Square which is an integer"""
 
     def __init__(self, size = 0):
-        """optional initialization with size, verify value and types"""
+        """optional initialization with size, verify value and type"""
         if type(size) is not int: 
             raise TypeError("size must be an integer")
         if size < 0:
