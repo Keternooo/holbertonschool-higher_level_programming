@@ -11,6 +11,8 @@ def text_indentation(text):
 
     arrSymbols = [':', '.', '?']
     for i in text:
+        if i == ' ':
+            return
         print(i, end="")
         if i in arrSymbols:
             print('')
