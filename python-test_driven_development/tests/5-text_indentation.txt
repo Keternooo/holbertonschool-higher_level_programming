@@ -2,9 +2,9 @@
 
 >>> indent('Coucou. Comment allez vous ?')
 Coucou
-
+<BLANKLINE>
 Comment allez vous ?
-
+<BLANKLINE>
 
 >>> indent(-1)
 Traceback (most recent call last):
