@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-"""Program thats defines a square"""
+"""program that creates the class Square defined by its size"""
+
 
 class Square:
-    """class Square thats defuine a Square"""
+    """size is a private attribute of the class Square which is an integer"""
+
     def __init__(self, size):
         self.__size = size
