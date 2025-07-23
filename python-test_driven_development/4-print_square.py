@@ -4,6 +4,7 @@
 """ My module Keterno """
 
 def print_square(size):
+    """ Method for print square """
     if size is not int:
         raise TypeError('size must be an integer')
     elif size < 0:
