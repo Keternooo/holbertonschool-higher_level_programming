@@ -5,6 +5,7 @@
 
 
 def matrix_divided(matrix, div):
+    """My method for divide matrix"""
     newArr = []
     for i in matrix:
         toAppend = []
