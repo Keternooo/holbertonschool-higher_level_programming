@@ -10,10 +10,13 @@ def text_indentation(text):
         raise TypeError('text must be a string')
 
     arrSymbols = [':', '.', '?']
+    lastBreak = False
     for i in text:
-        if i == ' ':
+        if i == ' ' and lastBreak:
             continue
         print(i, end="")
+        lastBreak = False
         if i in arrSymbols:
             print('')
             print('')
+            lastBreak = True
