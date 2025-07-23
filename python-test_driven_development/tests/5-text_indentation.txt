@@ -1,1 +1,9 @@
 >>> indent = __import__('5-text_indentation').text_indentation
+
+>>> indent('Coucou. Comment allez vous ?')
+Coucou
+Comment allez vous ?
+
+>>> indent(-1)
+
+TypeError: text must be a string
