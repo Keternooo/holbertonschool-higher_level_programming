@@ -1,1 +1,16 @@
 >>> square = __import__('4-print_square').print_square
+
+>>> say(1)
+#
+
+>>> say('Keternooo')
+Traceback (most recent call last):
+   ...
+TypeError: size must be an integer
+
+>>> say(-1)
+Traceback (most recent call last):
+   ...
+ValueError: size must be >= 0
+
+>>> say()
