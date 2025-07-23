@@ -1,7 +1,7 @@
 >>> indent = __import__('5-text_indentation').text_indentation
 
 >>> indent('Coucou. Comment allez vous ?')
-Coucou
+Coucou.
 <BLANKLINE>
 Comment allez vous ?
 <BLANKLINE>
