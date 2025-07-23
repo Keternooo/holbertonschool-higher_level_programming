@@ -7,3 +7,8 @@ My name is Keternooo notskidding
 Traceback (most recent call last):
    ...
 TypeError: last_name must be a string
+
+>>> say(0)
+Traceback (most recent call last):
+   ...
+TypeError: first_name must be a string
