@@ -1,4 +1,4 @@
-#!/usr/node/bin
+#!/usr/bin/node
 
 const request = require('request');
 request(process.argv[2], async (e, s, b) => {
