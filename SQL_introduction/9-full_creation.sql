@@ -1,6 +1,6 @@
 -- CREATE A TABLE AND MULTIPLES ROW
 
-CREATE IF NOT EXISTS second_table (
+CREATE TABLE IF NOT EXISTS second_table (
 	id INT,
 	name VARCHAR(256),
 	score INT
