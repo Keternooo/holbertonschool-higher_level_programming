@@ -1,0 +1,7 @@
+#!/usr/bin/node
+
+const request = require('request');
+request('https://swapi-api.hbtn.io/api/films/' + process.argv[2], async (err, st, bo) => {
+  if (error) return;
+  console.log((await bo.json())['title']);
+1});
