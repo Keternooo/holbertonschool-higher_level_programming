@@ -1,3 +1,3 @@
 -- Count how manu got the score
 
-SELECT score, COUNT(score) AS 'number' FROM second_table GROUP BY score HAVING COUNT (score);
+SELECT score, COUNT (score) AS 'number' FROM second_table GROUP BY score HAVING COUNT (score) > 0;
