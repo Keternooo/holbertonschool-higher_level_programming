@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 
 import os
-os.system('cd ~ && ls')
+os.system('pwd')
