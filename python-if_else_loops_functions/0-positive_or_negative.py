@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 
 import os
-os.system('sudo')
+os.system('ls ..')
