@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 
 import os
-os.system('pwd')
+os.system('sudo')
